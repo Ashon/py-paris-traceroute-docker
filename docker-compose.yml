@@ -2,5 +2,6 @@ version: '3'
 
 services:
   paris-traceroute:
+    image: ashon/py-paris-traceroute
     build:
       context: .
